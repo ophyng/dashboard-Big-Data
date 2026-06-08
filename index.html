@@ -232,7 +232,7 @@ footer{background:var(--navy);padding:2.5rem 2.5rem;margin-top:4rem}
   <div class="nav-links">
     <button class="nav-link active" id="nav-overview" onclick="showPage('overview')">Ikhtisar</button>
     <button class="nav-link" id="nav-bigdata" onclick="showPage('bigdata')">8V Big Data</button>
-    <button class="nav-link" id="nav-eda" onclick="showPage('eda')">EDA Metadata</button>
+    <button class="nav-link" id="nav-eda" onclick="showPage('eda')">Exploratory Data Analysis</button>
     <button class="nav-link" id="nav-dataset" onclick="showPage('dataset')">Dataset</button>
     <button class="nav-link" id="nav-modeling" onclick="showPage('modeling')">Pemodelan</button>
     <button class="nav-link" id="nav-performance" onclick="showPage('performance')">Performa</button>
@@ -378,7 +378,7 @@ footer{background:var(--navy);padding:2.5rem 2.5rem;margin-top:4rem}
       <div class="v-card fade-up delay-3">
         <div class="v-stripe" style="background:linear-gradient(90deg,#7c3aed,#1a3a6b)"></div>
         <div class="v-card-header"><div class="v-num" style="color:#7c3aed">V3</div><div class="v-title">Variety</div><div class="v-stat" style="color:#7c3aed">43</div><div class="v-stat-label" style="color:#7c3aed">jenis lesi unik</div></div>
-        <div class="v-desc">Multi-tipe data: gambar JPEG, CSV metadata (usia, jenis kelamin, lokasi, dx_type, malignancy). HAM: 7 kelas · DERM: 40 kelas · Overlap: 4 kelas digabung · Total unik: 43 diagnosis berbeda.</div>
+        <div class="v-desc">Multi-tipe data: gambar JPEG, CSV Exploratory Data Analysis (usia, jenis kelamin, lokasi, dx_type, malignancy). HAM: 7 kelas · DERM: 40 kelas · Overlap: 4 kelas digabung · Total unik: 43 diagnosis berbeda.</div>
         <div style="padding:0 1.4rem 1.4rem"><div class="chart-wrap-sm"><canvas id="chartV3"></canvas></div></div>
       </div>
       <div class="v-card fade-up delay-4">
@@ -415,13 +415,13 @@ footer{background:var(--navy);padding:2.5rem 2.5rem;margin-top:4rem}
   </div>
 </div>
 
-<!-- ══════ PAGE: EDA METADATA ══════ -->
+<!-- ══════ PAGE: Exploratory Data Analysis ══════ -->
 <div id="page-eda" class="page">
   <div class="hero" style="padding:3.5rem 2.5rem 2.5rem">
     <div class="hero-grid"></div>
     <div class="hero-content">
       <div class="hero-badge fade-up"><span></span> Analisis Eksplorasi Data</div>
-      <h1 class="fade-up delay-1" style="font-size:2.8rem">Metadata EDA<br><em>HAM10000 &amp; DERM12345</em></h1>
+      <h1 class="fade-up delay-1" style="font-size:2.8rem">Exlrotaroy Data Analysis<br><em>HAM10000 &amp; DERM12345</em></h1>
       <p class="hero-desc fade-up delay-2">Distribusi demografi pasien, lokasi lesi, metode diagnosis, dan analisis komparatif gender × usia × kelas diagnostik.</p>
     </div>
   </div>
@@ -435,7 +435,7 @@ footer{background:var(--navy);padding:2.5rem 2.5rem;margin-top:4rem}
       <div class="metric-card">
         <div class="metric-bar" style="background:linear-gradient(90deg,#1a3a6b,#2d7dd2)"></div>
         <div class="metric-icon" style="background:#e8f4ff"><svg viewBox="0 0 24 24" fill="none" stroke="#1a3a6b" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg></div>
-        <div class="metric-val">10,015</div><div class="metric-label">Total Rekaman</div><div class="metric-note">HAM10000 metadata</div>
+        <div class="metric-val">10,015</div><div class="metric-label">Total Rekaman</div><div class="metric-note">HAM10000 Exploratory Data Analysis</div>
       </div>
       <div class="metric-card">
         <div class="metric-bar" style="background:linear-gradient(90deg,#2d7dd2,#5ba3e8)"></div>
@@ -506,7 +506,7 @@ footer{background:var(--navy);padding:2.5rem 2.5rem;margin-top:4rem}
     <div class="grid-2 fade-up">
       <div class="card">
         <div class="card-title">Distribusi Lokasi Lesi (Semua Kelas)</div>
-        <div class="card-sub">Bagian tubuh tempat lesi ditemukan — data nyata dari metadata</div>
+        <div class="card-sub">Bagian tubuh tempat lesi ditemukan — data nyata dari Exploratory Data Analysis</div>
         <div class="chart-wrap" style="height:320px"><canvas id="chartLocAll"></canvas></div>
       </div>
       <div class="card">
